@@ -1,0 +1,19 @@
+c:\users\burak\documents\visual studio 2013\Projects\1.°XyZ\1.°XyZ\bin\Debug\1.°XyZ.exe.config
+C:\Users\BAYDIN\Desktop\c #\1.°XyZ\1.°XyZ\bin\Debug\1.°XyZ.exe.config
+C:\Users\BAYDIN\Desktop\c #\1.°XyZ\1.°XyZ\bin\Debug\1.°XyZ.exe
+C:\Users\BAYDIN\Desktop\c #\1.°XyZ\1.°XyZ\bin\Debug\1.°XyZ.pdb
+C:\Users\BAYDIN\Desktop\c #\1.°XyZ\1.°XyZ\obj\Debug\1.°XyZ.csprojResolveAssemblyReference.cache
+C:\Users\BAYDIN\Desktop\c #\1.°XyZ\1.°XyZ\obj\Debug\_1._XyZ.Form1.resources
+C:\Users\BAYDIN\Desktop\c #\1.°XyZ\1.°XyZ\obj\Debug\_1._XyZ.Properties.Resources.resources
+C:\Users\BAYDIN\Desktop\c #\1.°XyZ\1.°XyZ\obj\Debug\1.°XyZ.csproj.GenerateResource.Cache
+C:\Users\BAYDIN\Desktop\c #\1.°XyZ\1.°XyZ\obj\Debug\1.°XyZ.exe
+C:\Users\BAYDIN\Desktop\c #\1.°XyZ\1.°XyZ\obj\Debug\1.°XyZ.pdb
+C:\Users\BAYDIN\Documents\GitHub\Csharp\1.°XyZ\1.°XyZ\bin\Debug\1.°XyZ.exe.config
+C:\Users\BAYDIN\Documents\GitHub\Csharp\1.°XyZ\1.°XyZ\obj\Debug\1.°XyZ.exe
+C:\Users\BAYDIN\Documents\GitHub\Csharp\1.°XyZ\1.°XyZ\obj\Debug\1.°XyZ.pdb
+C:\Users\BAYDIN\Documents\GitHub\Csharp\1.°XyZ\1.°XyZ\bin\Debug\1.°XyZ.exe
+C:\Users\BAYDIN\Documents\GitHub\Csharp\1.°XyZ\1.°XyZ\bin\Debug\1.°XyZ.pdb
+C:\Users\BAYDIN\Documents\GitHub\Csharp\1.°XyZ\1.°XyZ\obj\Debug\1.°XyZ.csprojResolveAssemblyReference.cache
+C:\Users\BAYDIN\Documents\GitHub\Csharp\1.°XyZ\1.°XyZ\obj\Debug\_1._XyZ.Form1.resources
+C:\Users\BAYDIN\Documents\GitHub\Csharp\1.°XyZ\1.°XyZ\obj\Debug\_1._XyZ.Properties.Resources.resources
+C:\Users\BAYDIN\Documents\GitHub\Csharp\1.°XyZ\1.°XyZ\obj\Debug\1.°XyZ.csproj.GenerateResource.Cache
