@@ -1,0 +1,26 @@
+C:\Users\BAYDIN\source\repos\VeriCekme\VeriCekme\bin\Debug\VeriCekme.exe
+C:\Users\BAYDIN\source\repos\VeriCekme\VeriCekme\bin\Debug\VeriCekme.pdb
+C:\Users\BAYDIN\source\repos\VeriCekme\VeriCekme\obj\Debug\VeriCekme.csprojResolveAssemblyReference.cache
+C:\Users\BAYDIN\source\repos\VeriCekme\VeriCekme\obj\Debug\VeriCekme.Form1.resources
+C:\Users\BAYDIN\source\repos\VeriCekme\VeriCekme\obj\Debug\VeriCekme.Properties.Resources.resources
+C:\Users\BAYDIN\source\repos\VeriCekme\VeriCekme\obj\Debug\VeriCekme.csproj.GenerateResource.Cache
+C:\Users\BAYDIN\source\repos\VeriCekme\VeriCekme\obj\Debug\VeriCekme.csproj.CoreCompileInputs.cache
+C:\Users\BAYDIN\source\repos\VeriCekme\VeriCekme\obj\Debug\VeriCekme.exe
+C:\Users\BAYDIN\source\repos\VeriCekme\VeriCekme\obj\Debug\VeriCekme.pdb
+C:\Users\BAYDIN\source\repos\VeriCekme\VeriCekme\bin\Debug\HtmlAgilityPack.dll
+C:\Users\BAYDIN\source\repos\VeriCekme\VeriCekme\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\BAYDIN\source\repos\VeriCekme\VeriCekme\bin\Debug\HtmlAgilityPack.xml
+C:\Users\BAYDIN\source\repos\VeriCekme\VeriCekme\obj\Debug\VeriCekme.Form2.resources
+C:\Users\BAYDIN\Desktop\Web Service Demo\VeriCekme\VeriCekme\bin\Debug\VeriCekme.exe
+C:\Users\BAYDIN\Desktop\Web Service Demo\VeriCekme\VeriCekme\bin\Debug\VeriCekme.pdb
+C:\Users\BAYDIN\Desktop\Web Service Demo\VeriCekme\VeriCekme\bin\Debug\HtmlAgilityPack.dll
+C:\Users\BAYDIN\Desktop\Web Service Demo\VeriCekme\VeriCekme\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\BAYDIN\Desktop\Web Service Demo\VeriCekme\VeriCekme\bin\Debug\HtmlAgilityPack.xml
+C:\Users\BAYDIN\Desktop\Web Service Demo\VeriCekme\VeriCekme\obj\Debug\VeriCekme.csprojResolveAssemblyReference.cache
+C:\Users\BAYDIN\Desktop\Web Service Demo\VeriCekme\VeriCekme\obj\Debug\VeriCekme.Form1.resources
+C:\Users\BAYDIN\Desktop\Web Service Demo\VeriCekme\VeriCekme\obj\Debug\VeriCekme.Form2.resources
+C:\Users\BAYDIN\Desktop\Web Service Demo\VeriCekme\VeriCekme\obj\Debug\VeriCekme.Properties.Resources.resources
+C:\Users\BAYDIN\Desktop\Web Service Demo\VeriCekme\VeriCekme\obj\Debug\VeriCekme.csproj.GenerateResource.Cache
+C:\Users\BAYDIN\Desktop\Web Service Demo\VeriCekme\VeriCekme\obj\Debug\VeriCekme.csproj.CoreCompileInputs.cache
+C:\Users\BAYDIN\Desktop\Web Service Demo\VeriCekme\VeriCekme\obj\Debug\VeriCekme.exe
+C:\Users\BAYDIN\Desktop\Web Service Demo\VeriCekme\VeriCekme\obj\Debug\VeriCekme.pdb

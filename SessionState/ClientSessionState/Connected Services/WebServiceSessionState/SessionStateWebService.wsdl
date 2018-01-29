@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Toplam">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="sayi1" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="sayi2" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ToplamResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ToplamResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HesaplamayıGetir">
+        <s:complexType />
+      </s:element>
+      <s:element name="HesaplamayıGetirResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HesaplamayıGetirResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ToplamSoapIn">
+    <wsdl:part name="parameters" element="tns:Toplam" />
+  </wsdl:message>
+  <wsdl:message name="ToplamSoapOut">
+    <wsdl:part name="parameters" element="tns:ToplamResponse" />
+  </wsdl:message>
+  <wsdl:message name="HesaplamayıGetirSoapIn">
+    <wsdl:part name="parameters" element="tns:HesaplamayıGetir" />
+  </wsdl:message>
+  <wsdl:message name="HesaplamayıGetirSoapOut">
+    <wsdl:part name="parameters" element="tns:HesaplamayıGetirResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SessionStateWebServiceSoap">
+    <wsdl:operation name="Toplam">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Bu metot iki sayı toplar</wsdl:documentation>
+      <wsdl:input message="tns:ToplamSoapIn" />
+      <wsdl:output message="tns:ToplamSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="HesaplamayıGetir">
+      <wsdl:input message="tns:HesaplamayıGetirSoapIn" />
+      <wsdl:output message="tns:HesaplamayıGetirSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SessionStateWebServiceSoap" type="tns:SessionStateWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Toplam">
+      <soap:operation soapAction="http://tempuri.org/Toplam" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HesaplamayıGetir">
+      <soap:operation soapAction="http://tempuri.org/HesaplamayıGetir" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SessionStateWebServiceSoap12" type="tns:SessionStateWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Toplam">
+      <soap12:operation soapAction="http://tempuri.org/Toplam" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HesaplamayıGetir">
+      <soap12:operation soapAction="http://tempuri.org/HesaplamayıGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SessionStateWebService">
+    <wsdl:port name="SessionStateWebServiceSoap" binding="tns:SessionStateWebServiceSoap">
+      <soap:address location="http://localhost:61427/SessionStateWebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SessionStateWebServiceSoap12" binding="tns:SessionStateWebServiceSoap12">
+      <soap12:address location="http://localhost:61427/SessionStateWebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
